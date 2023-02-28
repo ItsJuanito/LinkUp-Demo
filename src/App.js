@@ -9,7 +9,8 @@ function App() {
         <span id="full-text" className='opacity-0'>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
         <span id="short-text" className='opacity-0'>++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
         <span id="shorter-text" className='opacity-0'>++++++++++++++++++++++++++++++++++</span>
-        <span id="shortest-text" className='opacity-0'>+++++++++++++++++++++++</span>
+        <span id="shortest-text" className='opacity-0'>++++++++++++++++++++++++++++</span>
+        <span id="smallest-text" className='opacity-0'>+++++++++++++++++++++++</span>
       </div>
       <div className="mb-8">
         <Info 

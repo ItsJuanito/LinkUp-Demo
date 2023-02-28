@@ -13,6 +13,8 @@ body {
 #short-text { display: none; }
 #shorter-text {display: none; }
 #shortest-text {display: none; }
+#smallest-text {display: none; }
+
 
 @media (max-width: 800px) {
   #short-text { display: inline-block;}
@@ -27,6 +29,11 @@ body {
 @media (max-width: 400px) {
   #shortest-text { display: inline-block; }
   #shorter-text { display: none; }
+}
+
+@media (max-width: 350px) {
+  #smallest-text { display: inline-block; }
+  #shortest-text { display: none; }
 }
 
 #link {
