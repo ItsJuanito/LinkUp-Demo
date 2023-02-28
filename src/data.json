@@ -1,0 +1,25 @@
+{
+    "name" : "Juan Zaragoza",
+    "uname" : "ItsJuanito",
+    "avatar" : "https://img.freepik.com/free-icon/user_318-563642.jpg",
+    "links" : [
+        {
+            "id" : 1,
+            "title" : "LinkedIn",
+            "url" : "https://www.linkedin.com/in/juan-zaragoza-jr",
+            "image" : "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+        },
+        {
+            "id" : 2,
+            "title" : "GitHub",
+            "url" : "https://github.com/ItsJuanito",
+            "image" : "https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
+        },
+        {
+            "id" : 3,
+            "title" : "Portfolio",
+            "url" : "https://juanz.netlify.app/",
+            "image" : "https://static.vecteezy.com/system/resources/thumbnails/002/387/754/small/laptop-icon-free-vector.jpg"
+        }
+    ]
+}

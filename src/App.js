@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Info from "./Info";
+import List from "./List";
+import data from "./data.json"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <span id="full-text" className='opacity-0'>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+        <span id="short-text" className='opacity-0'>++++++++++++++++++++++++++++++++++++++++++++++++++++++</span>
+        <span id="shorter-text" className='opacity-0'>++++++++++++++++++++++++++++++++++</span>
+        <span id="shortest-text" className='opacity-0'>+++++++++++++++++++++++</span>
+      </div>
+      <div className="mb-8">
+        <Info 
+        avatar = {data.avatar}
+        uname = {data.uname}
+        name = {data.name}
+        />
+      </div>
+      <div className="w-full">
+        <List links={data.links}/>
+      </div>
+      <div className="flex mt-8 w-full justify-center items-center" id="footer">
+        <span className="justify-center text-2xl font-semibold text-white">LinkUp</span>
+      </div>
+      <div>
+        <span className='opacity-0'>+++++++++++++++++++++++</span>
+      </div>
     </div>
   );
 }
